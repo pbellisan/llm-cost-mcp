@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated data and logs (regenerate with make_sample_data.py; never commit)
+sample.db
+*.db
+*.sqlite
+*.sqlite3
+audit.jsonl
+*.jsonl
+*.log
+
+# Environment files and secrets
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
